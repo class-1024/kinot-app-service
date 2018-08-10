@@ -8,6 +8,6 @@ WORKDIR /usr/local/bin
 #将服务器的go工程代码加入到docker容器中
 ADD . /usr/local/bin
 #暴露端口
-EXPOSE 433
+EXPOSE 443
 #最终运行docker的命令
 ENTRYPOINT  ["./kinot-app-service"]
