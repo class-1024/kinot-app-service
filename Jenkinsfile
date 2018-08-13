@@ -3,7 +3,7 @@ node {
                 checkout scm
                 echo "1.Clone Stage" 
                 script {
-                   build_tag ="v2.0"
+                   build_tag ="v3.0"
                    echo "build_tag:${build_tag}"
                }      
         }
